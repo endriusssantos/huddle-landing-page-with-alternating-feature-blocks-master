@@ -1,0 +1,202 @@
+@media (max-width: 425px) {
+    .container .primary {
+        background: url(../images/bg-hero-mobile.svg) no-repeat top / contain;
+        background-color: hsl(193, 100%, 96%);
+    }
+
+    .container .primary .header {
+        padding: 0 20px;
+    }
+
+    .container .primary .header .logo {
+        width: 120px;
+        height: 20px;
+    }
+
+    .container .primary .header .btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+
+    .container .primary .content-main {
+        flex-direction: column;
+        text-align: center;
+        margin: 100px 0 0 0;
+        gap: 50px;
+    }
+
+    .container .primary .content-main .text .title {
+        font-size: 22px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .container .primary .content-main .text .description {
+        font-size: 16px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .container .primary .content-main .text .btn {
+        font-size: 12px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .container .primary .content-main .image .mockup {
+        width: 350px;
+    }
+
+    .container .photos .grow-together {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        position: relative;
+    }
+
+    .container .photos .grow-together .informations {
+        padding-top: 250px;
+    }
+
+    .container .photos .grow-together .informations .title {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .container .photos .grow-together .informations .description {
+        margin: 0;
+        font-size: 16px;
+        width: 300px;
+        padding: 20px 0 0 0;
+    }
+
+    .container .photos .grow-together .image {
+        width: 250px;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+    }
+
+    .container .photos .flowing-conversations {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .container .photos .flowing-conversations .informations .title {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .container .photos .flowing-conversations .informations .description {
+        margin: 0;
+        font-size: 16px;
+        width: 300px;
+        padding: 20px 0 0 0;
+    }
+
+    .container .photos .flowing-conversations .image {
+        width: 250px;
+        margin: 0;
+    }
+
+    .container .photos .your-users {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        position: relative;
+    }
+
+    .container .photos .your-users .informations {
+        padding-top: 250px;
+    }
+
+    .container .photos .your-users .informations .title {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .container .photos .your-users .informations .description {
+        margin: 0;
+        font-size: 16px;
+        width: 300px;
+        padding: 20px 0 0 0;
+    }
+
+    .container .photos .your-users .image {
+        width: 250px;
+        margin: 0;
+        position: absolute;
+        top: 50px;
+    }
+
+    .card {
+        text-align: center;
+        width: 90%;
+        left: 20px;
+        bottom: -1950px;
+    }
+
+    .card .title {
+        font-size: 20px;
+    }
+
+    .card .btn {
+        font-size: 12px;
+        width: 60%;
+        padding: 15px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .footer-content .items-left {
+        margin: 150px 0 30px 0;
+    }
+
+    .footer-content .items-left .logo {
+        margin: 0 0 20px 20px;
+    }
+
+    .footer-content .items-left div {
+        margin: 0 0 0px 20px;
+    }
+
+    .footer-content .items-left .icon {
+        width: 16px;
+    }
+
+    .footer-content .items-left .local .icon {
+        width: 14px;
+        height: 18px;
+    }
+
+    .footer-content .items-left .local .description {
+        width: 350px;
+    }
+
+    .footer-content .items-center {
+        flex-direction: column;
+        gap: 0;
+        padding: 0 280px 0 0;
+    }
+
+    .footer-content .items-center .informations-left {
+        padding: 0;
+    }
+
+    .footer-content .items-right .icons {
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 100px 0
+    }
+
+    .footer-content .items-right .copyright {
+        font-size: 12px;
+        bottom: 50px;
+        left: 100px;
+    }
+}
